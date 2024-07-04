@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="jlst"
+          fetch="https://github.com/JLST-SM-MSM8974"
+          revision="lineage-18.1" />
+
+  <!-- Common trees -->
+  <project path="device/samsung/hlte-common" name="android_device_samsung_hlte-common" remote="jlst" />
+  <project path="device/samsung/msm8974-common" name="android_device_samsung_msm8974-common" remote="jlst" />
+  <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="jlst" />
+
+  <!-- Vendor trees -->
+  <!-- Common vendors-->
+  <project path="vendor/samsung/hlte-common" name="proprietary_vendor_samsung_hlte-common" remote="jlst" />
+  <project path="vendor/samsung/msm8974-common" name="proprietary_vendor_samsung_msm8974-common" remote="jlst" />
+  <!-- Device specific vendors -->
+  <project path="vendor/samsung/hlte" name="proprietary_vendor_samsung_hlte" remote="jlst" />
+  <project path="vendor/samsung/hltechn" name="proprietary_vendor_samsung_hltechn" remote="jlst" />
+  <project path="vendor/samsung/hltekor" name="proprietary_vendor_samsung_hltekor" remote="jlst" />
+  <project path="vendor/samsung/hltetmo" name="proprietary_vendor_samsung_hltetmo" remote="jlst" />
+
+  <!-- Device specific trees -->
+  <project path="device/samsung/hlte" name="android_device_samsung_hlte" remote="jlst" />
+  <project path="device/samsung/hltechn" name="android_device_samsung_hltechn" remote="jlst" />
+  <project path="device/samsung/hltekor" name="android_device_samsung_hltekor" remote="jlst" />
+  <project path="device/samsung/hltetmo" name="android_device_samsung_hltetmo" remote="jlst" />
+
+  <!-- Kernel -->
+  <project path="kernel/samsung/msm894" name="android_kernel_samsung_msm8974" remote="jlst" />
+</manifest>
