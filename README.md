@@ -1,3 +1,4 @@
+![banner](https://raw.githubusercontent.com/JLST-SM-MSM8974/local_manifests/los18/manifest_banner.png)
 # Samsung MSM8974 Tree Manifest
 This is the manifest to clone the hlte family device trees.
 
